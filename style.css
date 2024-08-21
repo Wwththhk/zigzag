@@ -71,6 +71,7 @@ body, ul {
 .project-gridimg {
     width: 280px;
     height: 148px;
+    position: relative;
 }
 
 .project-gridimg img {
@@ -78,6 +79,27 @@ body, ul {
     height: 100%; 
 }
 
+.overlay {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(98, 48, 162, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.project-gridimg h2 {
+    z-index: 2;
+    color: #fff;
+    font-size: 32px;
+    line-height: 44px;
+    position: relative;
+    opacity: 1;
+}
 .list {
     width: 800px;
     background-color: #fff;
@@ -85,7 +107,7 @@ body, ul {
     
 }
 
-.list h2 {
+.list h3 {
     margin: 0;
     padding: 16px 0 14px 21px;
     color: #6230a2;
