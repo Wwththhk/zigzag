@@ -28,19 +28,18 @@ body {
     line-height: 44px;
     padding: 92px 0 105px 0;
     margin: 0;
+    position: relative;
 }
 
 .project-title span {
     font-weight: normal;
 }
 
-.title-explain::before {
-    content: ' ';
-    display: block;
-    width: 90px;
+.line {
+    width: 90px; 
     height: 1px;
     background-color: #c89dff;
-    margin: 0 20px;
+    margin: 0 32px 0 22px; 
 }
 
 .title-explain {
