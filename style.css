@@ -39,6 +39,10 @@ body, ul {
     font-weight: normal;
 }
 
+.highlight {
+    background: linear-gradient(to bottom, transparent 50%, rgba(255, 69, 0) 50%);
+}
+
 .line {
     width: 90px; 
     height: 1px;
