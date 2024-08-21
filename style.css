@@ -1,6 +1,8 @@
-body {
+body, ul {
     margin: unset;
+    padding: unset;
 }
+
 
 :root {
     font-family: 'Montserrat';
@@ -18,7 +20,7 @@ body {
 .container {
     display: flex;
     align-items: center;
-    padding-left: 420px;
+    padding: 0 420px;
 }
 
 .project-title {
@@ -46,6 +48,75 @@ body {
     margin: 0;
     padding: 0;
     color: #c89dff;
+}
+
+.project-grid {
+    display: grid; 
+    gap: 30px;
+    max-width: 1080px;
+    margin: 0 auto; 
+}
+
+.project-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: auto;
+}
+
+.project-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-gridimg {
+    width: 280px;
+    height: 148px;
+}
+
+.project-gridimg img {
+    width: 100%; 
+    height: 100%; 
+}
+
+.list {
+    width: 800px;
+    background-color: #fff;
+    padding-bottom: 6px;
+    
+}
+
+.list h2 {
+    margin: 0;
+    padding: 16px 0 14px 21px;
+    color: #6230a2;
+    font-size: 18px;
+
+}
+
+.list ul {
+    list-style-type: none;
+    padding-left: 20px; 
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.list li {
+    position: relative; 
+    padding: 0 0 12px 24px; 
+    font-size: 14px;
+    margin: 0;
+}
+
+.list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px; 
+    background-color: #c89dff; 
+    border-radius: 50%; 
 }
 
 .calendar {
