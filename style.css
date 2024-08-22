@@ -150,3 +150,10 @@ body, ul {
 .calendar {
     background-color: #fff5ed;
 }
+
+.calendar-header {
+    display: flex;
+    max-width: 1080px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
