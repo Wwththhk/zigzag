@@ -218,6 +218,21 @@ body, ul {
     font-weight: 600;
 }
 
+.card-main h2 {
+    font-size: 24px;
+    color: #111;
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+.card-main p {
+    color: #333;
+    padding: 20px;
+    line-height: 22px;
+    font-size: 14px;
+    margin: 0;
+}
+
 .card-line {
     background-color: #eee;
     height: 4px;
